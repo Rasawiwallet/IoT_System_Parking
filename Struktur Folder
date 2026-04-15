@@ -1,0 +1,74 @@
+percetakan-iot/
+│
+├── 📁 frontend/                     # Tampilan Website (Client Side)
+│   ├── index.php                   # Halaman utama
+│   ├── login.php                   # Login user
+│   ├── register.php                # Registrasi user
+│   ├── dashboard.php               # Dashboard user
+│   ├── upload.php                  # Upload file cetak
+│   ├── order.php                   # Form pemesanan
+│   ├── status.php                  # Tracking status order
+│   │
+│   ├── 📁 admin/                   # Halaman Admin
+│   │   ├── dashboard.php
+│   │   ├── kelola_user.php
+│   │   ├── kelola_mitra.php
+│   │   ├── kelola_order.php
+│   │   └── laporan.php
+│   │
+│   └── 📁 assets/                  # File pendukung UI
+│       ├── 📁 css/
+│       ├── 📁 js/
+│       ├── 📁 images/
+│       └── 📁 uploads/             # File yang diupload user
+│
+├── 📁 backend/                     # Logic Server (MVC sederhana)
+│   ├── 📁 config/
+│   │   └── koneksi.php             # Koneksi database
+│   │
+│   ├── 📁 models/                  # Query database
+│   │   ├── User.php
+│   │   ├── Admin.php
+│   │   ├── Mitra.php
+│   │   └── Order.php
+│   │
+│   ├── 📁 controllers/             # Logic aplikasi
+│   │   ├── AuthController.php
+│   │   ├── OrderController.php
+│   │   ├── MitraController.php
+│   │   └── AdminController.php
+│   │
+│   └── functions.php               # Helper function
+│
+├── 📁 api/                         # REST API untuk ESP32
+│   ├── koneksi.php
+│   ├── get_order.php               # Ambil data order
+│   ├── update_status.php           # Update status cetak
+│   ├── auth.php                    # (Opsional) keamanan API
+│   └── response.php                # Format response JSON
+│
+├── 📁 database/                    # Database
+│   ├── percetakan.sql             # Struktur & data awal
+│   └── migration.sql              # (Opsional) perubahan database
+│
+├── 📁 esp32/                       # Program IoT (Arduino IDE)
+│   ├── esp32.ino                  # Program utama ESP32
+│   ├── wifi_config.h              # Konfigurasi WiFi
+│   ├── api_config.h               # Endpoint API
+│   └── utils.h                    # Fungsi tambahan
+│
+├── 📁 docs/                        # Dokumentasi Project
+│   ├── flowchart.png
+│   ├── arsitektur.png
+│   ├── erd.png
+│   ├── api-docs.md
+│   └── laporan.pdf
+│
+├── 📁 tests/                       # Testing (opsional)
+│   ├── test_api.php
+│   └── test_koneksi.php
+│
+├── 📄 .env                         # Konfigurasi (DB, API, dll)
+├── 📄 .gitignore
+├── 📄 README.md
+└── 📄 LICENSE
