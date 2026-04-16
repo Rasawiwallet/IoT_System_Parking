@@ -1,8 +1,8 @@
 # percetakan_online
 Project Kelompok
-1. Anisa Auliana Rizkika
-2. Ibnu Sahrul Anwar 230202811
-3. Ramzi Selpora Widiyanto
+1. Anisa Auliana Rizkika (Mitra)
+2. Ibnu Sahrul Anwar 230202811 (Admin)
+3. Ramzi Selpora Widiyanto (User)
 
 ---
 # 🖨️ Website Percetakan Online Berbasis IoT (ESP32)
