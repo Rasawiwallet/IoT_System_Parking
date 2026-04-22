@@ -22,4 +22,32 @@ Fungsi:
 --Kirim data ke web/app
 
 B. Sistem Gate Masuk (IN)
-![gambaran] 
+![gambaran] gambar/contoh_gambaran.jpg
+
+Komponen:
+-Sensor kendaraan: Ultrasonic / IR
+-Push button (ambil tiket)
+-Thermal printer mini / LCD (opsional)
+-Servo motor (palang)
+-Buzzer
+
+Fungsi:
+-Deteksi kendaraan datang
+-User tekan tombol → cetak / generate karcis
+-Palang terbuka otomatis
+
+C. Sistem Area Parkir
+![gambar]contoh_gambaran1.jpg
+
+Komponen:
+Sensor tiap slot:
+Ultrasonic / IR
+LED indikator:
+Hijau = kosong
+Merah = terisi
+
+Fungsi:
+
+Deteksi ketersediaan parkir
+Kirim data ke ESP32 → tampil di web
+D. Sistem Gate Keluar (OUT)
