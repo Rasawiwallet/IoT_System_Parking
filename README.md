@@ -37,7 +37,7 @@ Fungsi:
 -Palang terbuka otomatis
 
 C. Sistem Area Parkir
-![gambar]contoh_gambaran1.jpg
+![gambar](contoh_gambaran1.jpg)
 
 Komponen:
 Sensor tiap slot:
