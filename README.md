@@ -83,3 +83,23 @@ Pembagian Sistem
                 ▼                             ▼
           [Website]                    [Monitor Display]
 ```
+
+Kebutuhan Alat :
+Mikrokontroller 
+-	ESP32  x1
+-	Arduino x1
+Palang Masuk
+-	Servo Motor x1
+-	Ultrasonic x1
+-	Kamera (webcam) x1
+-	Printer x1
+-	Layar x1
+Palang Tutup
+-	Servo Motor x1
+-	Ultrasonic x1
+-	Kamera (webcam) x1
+-	RFID / QR scanner x1
+Parkir
+-	Kamera (webcam) x1
+-	
+
