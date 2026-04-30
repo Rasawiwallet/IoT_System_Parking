@@ -68,7 +68,7 @@ Pembagian Sistem
     - Thermal printer (seerial)
     - Terhubung ke ESP32 / server
 6. Blok Diagram
-
+```
 [Ultrasonic Sensor] ──┐
                       ├──> [ESP32] ───> [Palang + Printer]
 [Kamera Masuk] ───────┘        │
@@ -82,3 +82,4 @@ Pembagian Sistem
                 ┌──────────────┴──────────────┐
                 ▼                             ▼
           [Website]                    [Monitor Display]
+```
